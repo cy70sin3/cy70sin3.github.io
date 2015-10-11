@@ -38,7 +38,7 @@ Straight up we can see what looks like an encoded string pointed to by esi being
 .text:080481DD                 jmp     short loc_80481D5
 {% endhighlight %}
 
-This is looking like a basic Ceaser Cipher with the character pointed to by esi shifted at 0x080481DA. 
+This is looking like a basic Ceasar Cipher with the character pointed to by esi shifted at 0x080481DA. 
 
 {% highlight c %}
   v1 = sys_read(0, &user_80493EC, 0x14u);       // Read in username
