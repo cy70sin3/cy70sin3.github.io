@@ -1,0 +1,21 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               cytosine
+tagline:             'CTF & Security'
+description:         'A place to store CTF writeups and talk about shit I find interesting.'
+url:                 http://cy70sin3.github.io
+baseurl:             ''
+paginate:            1
+
+# About/contact
+author:
+  name:              cytosine
+  email:             cyto@cytosine.xyz
+
+# Custom vars
+version:             1.0.0
