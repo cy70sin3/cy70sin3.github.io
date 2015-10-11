@@ -64,7 +64,7 @@ This is looking like a basic Ceaser Cipher with the character pointed to by esi 
 {% endhighlight %}  
 
 Moving onto user input we can see that the username is stored at 0x080493EC and the password stored at 0x0804940A.  
-Basic length checks are performed and the values are then moved to 0x0804941E and 0x0804941F.  
+Basic length checks are performed and the values are then moved to 0x0804941E and 0x0804941F respectively.  
 Finally it calls the function at 0x080481E4 which performs additional checks.
 
 {% highlight c %}
