@@ -14,6 +14,8 @@ good luck and have a good day :)
 ![Screenshot]({{ site.url }}/assets/crackmes-BeatMe/file.png)
 So the task seems simple enough, given a 32-Bit ELF file, write a keygen. Sweet let's do it.
 
+<!--more-->
+
 {% highlight text %}
 .text:08048080                 public start
 .text:08048080 start           proc near

@@ -10,7 +10,8 @@ tagline:             'CTF & Security'
 description:         'A place to store CTF writeups and talk about shit I find interesting.'
 url:                 http://cy70sin3.github.io
 baseurl:             ''
-paginate:            1
+paginate:            3
+excerpt_separator: <!--more-->
 
 # About/contact
 author:
