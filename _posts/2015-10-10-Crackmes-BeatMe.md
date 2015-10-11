@@ -40,7 +40,7 @@ Straight up we can see what looks like an encoded string pointed to by esi being
 
 This is looking like a basic Ceasar Cipher with the character pointed to by esi shifted at 0x080481DA. 
 
-{% highlight c %}
+{% highlight text %}
   v1 = sys_read(0, &user_80493EC, 0x14u);       // Read in username
   JUMPOUT(v1, 3, &loc_80482A0);
   if ( v1 >= 10 )
@@ -67,7 +67,7 @@ Moving onto user input we can see that the username is stored at 0x080493EC and 
 Basic length checks are performed and the values are then moved to 0x0804941E and 0x0804941F respectively.  
 Finally it calls the function at 0x080481E4 which performs additional checks.
 
-{% highlight c %}
+{% highlight text %}
   if ( user_byte_804941E == pass_804940A[0] - 48)// pass[0] == len(user)
   {
     v0 = __rdtsc();
