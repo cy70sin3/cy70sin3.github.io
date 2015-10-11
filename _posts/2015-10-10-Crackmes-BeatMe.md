@@ -110,7 +110,7 @@ Finally it calls the function at 0x080481E4 which performs additional checks.
 {% endhighlight %}
 
 The additional checks are simple enough, first it checks that pass[0] == len(user) and pass[1] == user[2].  
-pass[2:] is then decoded with the same Ceaser Cipher as before and an additional shift is applied.  
+pass[2:] is then decoded with the same Ceasar Cipher as before and an additional shift is applied.  
 If the resulting password is equal to the username the program will print 'CORRECT , YOU WIN'.
 
 ![Screenshot]({{ site.url }}/assets/crackmes-BeatMe/win.png)
